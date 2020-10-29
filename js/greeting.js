@@ -1,6 +1,6 @@
 // Get the hour
 if (!today) var today = new Date();
-var Hr = today.getHours();
+if (!Hr) var Hr = today.getHours();
 
 // Here you can change your name
 var name = 'Kaue Ueda';
